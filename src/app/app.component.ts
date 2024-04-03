@@ -10,6 +10,7 @@ import { SidebarComponent } from './common/sidebar.component';
 import { SidebarItemGroupComponent } from './common/sidebar-item-group.component';
 import { SidebarItemComponent } from './common/sidebar-item.component';
 import { components } from './common/components';
+import { LoginComponent } from './components/login/login.component';
 
 
 @Component({
@@ -17,17 +18,18 @@ import { components } from './common/components';
   standalone: true,
   imports: [
     CommonModule, RouterOutlet, RouterModule, 
-    DarkThemeToggleComponent, NavbarComponent, SidebarComponent, SidebarItemGroupComponent, SidebarItemComponent],
+    DarkThemeToggleComponent, NavbarComponent, SidebarComponent,LoginComponent, SidebarItemGroupComponent, SidebarItemComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
   title = 'dashboard';
   components = components;
+  mostrarLogin:boolean=true;
+  ocultarLogin(){
+    this.mostrarLogin=false;
+  }
   constructor(readonly sidebarService: SidebarService) {}
-  
-
-
   ngOnInit(): void {
     initFlowbite();
   }
