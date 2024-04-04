@@ -2,6 +2,9 @@ import {
   firebase
 } from "./chunk-QKNZTFXI.js";
 import {
+  getApps
+} from "./chunk-K3OWKRE6.js";
+import {
   Inject,
   Injectable,
   InjectionToken,
@@ -26,9 +29,6 @@ import {
   subscribeOn,
   tap
 } from "./chunk-YHCIM74Y.js";
-import {
-  getApps
-} from "./chunk-K3OWKRE6.js";
 
 // node_modules/@angular/fire/fesm2022/angular-fire.mjs
 var VERSION2 = new Version("ANGULARFIRE2_VERSION");
@@ -422,4 +422,4 @@ firebase/compat/app/dist/esm/index.esm.js:
    * limitations under the License.
    *)
 */
-//# sourceMappingURL=chunk-FYHAWYV3.js.map
+//# sourceMappingURL=chunk-FNRRP3QZ.js.map

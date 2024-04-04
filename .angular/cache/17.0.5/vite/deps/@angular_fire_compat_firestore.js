@@ -7,8 +7,9 @@ import {
   USE_DEVICE_LANGUAGE,
   USE_EMULATOR,
   ɵauthFactory
-} from "./chunk-PTJCA3BP.js";
-import "./chunk-RPRAUS62.js";
+} from "./chunk-Q7YD23NX.js";
+import "./chunk-ZGGMOYIN.js";
+import "./chunk-FGY5SCXQ.js";
 import {
   FIREBASE_APP_NAME,
   FIREBASE_OPTIONS,
@@ -18,11 +19,25 @@ import {
   ɵAppCheckInstances,
   ɵcacheInstance,
   ɵfirebaseAppFactory
-} from "./chunk-FYHAWYV3.js";
-import "./chunk-OB6VM57O.js";
+} from "./chunk-FNRRP3QZ.js";
 import {
   firebase
 } from "./chunk-QKNZTFXI.js";
+import "./chunk-OB6VM57O.js";
+import {
+  Component,
+  FirebaseError,
+  LogLevel,
+  Logger,
+  SDK_VERSION,
+  _registerComponent,
+  createMockUserToken,
+  getModularInstance,
+  getUA,
+  isIndexedDBAvailable,
+  isSafari,
+  registerVersion
+} from "./chunk-K3OWKRE6.js";
 import {
   isPlatformServer
 } from "./chunk-BYJPBEGI.js";
@@ -52,21 +67,6 @@ import {
   scan,
   startWith
 } from "./chunk-YHCIM74Y.js";
-import "./chunk-FGY5SCXQ.js";
-import {
-  Component,
-  FirebaseError,
-  LogLevel,
-  Logger,
-  SDK_VERSION,
-  _registerComponent,
-  createMockUserToken,
-  getModularInstance,
-  getUA,
-  isIndexedDBAvailable,
-  isSafari,
-  registerVersion
-} from "./chunk-K3OWKRE6.js";
 import "./chunk-LHRTKJE6.js";
 import {
   __async,

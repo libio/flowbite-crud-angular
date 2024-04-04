@@ -1,7 +1,4 @@
 import {
-  firebase
-} from "./chunk-QKNZTFXI.js";
-import {
   ActionCodeOperation,
   AuthCredential,
   AuthEventManager,
@@ -78,6 +75,9 @@ import {
   verifyBeforeUpdateEmail,
   verifyPasswordResetCode
 } from "./chunk-FGY5SCXQ.js";
+import {
+  firebase
+} from "./chunk-QKNZTFXI.js";
 import {
   Component,
   FirebaseError,
@@ -1353,4 +1353,4 @@ registerAuthCompat(firebase);
    * limitations under the License.
    *)
 */
-//# sourceMappingURL=chunk-RPRAUS62.js.map
+//# sourceMappingURL=chunk-ZGGMOYIN.js.map
